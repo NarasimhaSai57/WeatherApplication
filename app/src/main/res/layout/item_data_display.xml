@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ic_background_square"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_date_forcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+<!--   <ImageView
+       android:layout_marginTop="10dp"
+       android:id="@+id/img_weather"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:src="@drawable/icon_clearsky"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />-->
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_date_maxtemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp"
+        android:textSize="12sp"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_squarefill"
+        android:textColor="#000"
+        android:visibility="visible"
+        android:gravity="center"
+        />
+
+    <!--<TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temp"
+        android:background="@drawable/ic_squarefill"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+-->
+</LinearLayout>
